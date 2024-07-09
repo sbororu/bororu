@@ -1,12 +1,4 @@
 
-
-/*Hamburger menu*/
-function menuOnClick(){
-	document.getElementById("menu_checkbox").classList.toggle("change");
-	
-	document.getElementById("nav").classList.toggle("change");
-	document.getElementById("menu-bg").classList.toggle("change-bg");
-}
 /*star*/
 particlesJS("particles-js", {
 	"particles":{
@@ -111,43 +103,6 @@ $(window).on('load scroll', function (){
     SetScrollTiming('.skill4');
     SetScrollTiming('.skill5');
 });
-/*Moving text*/
-var paragraph = document.getElementsByClassName('moving-txt')[0];
-
-function textEffect(animationName) {
-  var text = paragraph.innerHTML,
-		chars = text.length,
-		newText = '',
-		animation = animationName,
-		char,
-		i;
-
-	for (i = 0; i < chars; i += 1) {
-		newText += '<i>' + text.charAt(i) + '</i>';
-	}
-
-	paragraph.innerHTML = newText;
-
-	var wrappedChars = document.getElementsByTagName('i'),
-		wrappedCharsLen = wrappedChars.length,
-		j = 0;
-
-	function addEffect () {
-		setTimeout(function () {
-			wrappedChars[j].className = animation;
-			j += 1;
-			if (j < wrappedCharsLen) {
-				addEffect();
-			}
-		}, 100)
-	}
-
-	addEffect();
-};
-
-textEffect('fly-in-out');
-
-
 /*Mail script*/
 document.querySelector('.contact-form').addEventListener('submit', function(e) {
     e.preventDefault();

@@ -36,14 +36,7 @@ h2, h3 {
   letter-spacing: 0.08em;
   text-align: center;
   color: #FFB79B;
-} /*
-.tit_art_gallery {
-  height: 10vh;
-  width: 100vw;
-  position: absolute;
-  display: block;
-  margin-top: 10vh;
-}*/
+} 
 .gallery-index {
   margin: 0;
   padding: 10% 0 5%;
