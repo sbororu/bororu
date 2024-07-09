@@ -95,14 +95,11 @@ header {
 .menu-bg {
   z-index: 1;
   width: 0;
-  height: 0; /*
-    border-radius: 90% 40% 80% 90%;*/
+  height: 0;
   transition: 0.3s ease;
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.15) !important;
   box-shadow: 2px 0px 4px rgba(224, 243, 253, 0.2);
-  backdrop-filter: blur(6px); /*
-  background: #76ABAE;
-  box-shadow: inset 4px 2px 2px #003C43, inset 8px 4px 16px #003C43, inset 4px 16px 16px #135D66, inset 16px -2px 32px #135D66;*/
+  backdrop-filter: blur(6px) !important; 
 }
 .change {
   display: block;
@@ -118,8 +115,7 @@ header {
 }
 .change-bg {
   width: 100vw;
-  height: 100vh; /*
-    transform: translate(20%, -30%);*/
+  height: 100vh; 
 }
 .nav {
   transform: translate(-50%, -50%);
