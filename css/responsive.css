@@ -130,7 +130,7 @@
     background-size: 50% !important;
     background-position: top 30% center !important;
   }
-  .bg2 { 
+  .bg2 {
     padding: 0 20px;
     flex-direction: column;
   }
@@ -141,13 +141,16 @@
   .bg2 .hello {
     font-size: 18px;
   }
-  .gallery { 
+  .gallery {
     padding: 20px 20px;
   }
   .tit_gallery, .tit_skill, .tit_contact, .tit_art_gallery, .tit_work {
     font-size: 22px;
-    margin-bottom: 20px;/*
+    margin-bottom: 20px; /*
     padding-top: 50px;*/
+  }
+  .tit_skill {
+    padding-top: 50px;
   }
   .tit_passion, .skill-wrapper h3 {
     font-size: 16px;
@@ -362,7 +365,7 @@
   }
   .horizontal_scroll {
     width: 200vw;
-  } 
+  }
   .art {
     grid-template-columns: 300px 300px;
   }
@@ -422,7 +425,7 @@
 }
 /* For all Large devices (from 1367px and up)*/
 @media (min-width: 1367px) {
-  .bg2 { 
+  .bg2 {
     padding: 0 10%;
   }
   .bg2-img {
