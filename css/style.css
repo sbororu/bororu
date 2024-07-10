@@ -70,8 +70,8 @@ h4 {
   filter: brightness(60%) !important;
   background-attachment: fixed !important;
   background-position: center !important;
-  background-size: cover !important;
   background-repeat: no-repeat !important;
+  background-size: cover !important;
   -webkit-background-size: cover !important;
   -moz-background-size: cover !important;
   -o-background-size: cover !important
@@ -134,6 +134,7 @@ h4 {
   z-index: 1;
   background: url("../images/me.JPG") !important;
   background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
 }
 .name {
   max-width: 1366px;
