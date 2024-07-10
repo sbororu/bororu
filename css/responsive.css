@@ -4,10 +4,6 @@
   .parallax-container {
     height: 300vh;
   }
-  .intro {
-    background-size: 50%;
-    background-position: top 30% center;
-  }
   .bg2 {
     height: 100vh;
   }
@@ -36,7 +32,7 @@
   }
   .passion-more {
     position: absolute;
-    bottom:15px;
+    bottom: 15px;
     right: 20px;
   }
   .skill-container {
@@ -63,10 +59,6 @@
 @media (min-width: 500px) and (max-width: 767px) {
   .parallax-container {
     height: 270vh;
-  }
-  .intro {
-    background-size: 35%;
-    background-position: top 38% right 30%;
   }
   .bg2 {
     height: 70vh;
@@ -95,7 +87,7 @@
   }
   .passion-more {
     position: absolute;
-    bottom:20px;
+    bottom: 20px;
     right: 20px;
   }
   .art {
@@ -133,6 +125,18 @@
   .about-box {
     flex-direction: column;
     margin-top: 50px;
+  }
+  .intro {
+    background-size: 50% !important;
+    background-position: top 30% center !important;
+  }
+  .parallax-content {
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .bg2 { /*
     box-shadow: 0px -15rem 12rem 9rem #030637;*/
@@ -250,9 +254,9 @@
   .page-description {
     font-size: 12px;
   }
-	.passion-more{
-		font-size: 12px;
-	}
+  .passion-more {
+    font-size: 12px;
+  }
 }
 /*Medium devices (tablets, 768px to 1366px)*/
 @media (min-width: 768px) and (max-width:1366px) {
@@ -321,9 +325,9 @@
   }
   .passion-more {
     position: absolute;
-    bottom:15px;
+    bottom: 15px;
     right: 20px;
-	font-size: 15px;
+    font-size: 15px;
   }
   .tit_passion, .skill-wrapper h3 {
     font-size: 18px;
@@ -491,9 +495,9 @@
   }
   .passion-more {
     position: absolute;
-    bottom:30px;
+    bottom: 30px;
     right: 40px;
-	font-size: 14px;
+    font-size: 14px;
   }
   .tit_passion, .skill-wrapper h3 {
     font-size: 20px;
