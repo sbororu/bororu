@@ -250,6 +250,9 @@
   .passion-more {
     font-size: 12px;
   }
+  .img-bg1 {
+    display: none;
+  }
 }
 /*Medium devices (tablets, 768px to 1366px)*/
 @media (min-width: 768px) and (max-width:1366px) {
