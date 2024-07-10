@@ -186,7 +186,7 @@
   }
   .work-wrapper {
     width: 80%;
-    height: 120px;
+    height: 140px;
   }
   .work-outer {
     gap: 20px;
@@ -195,7 +195,7 @@
     font-size: 22px;
   }
   .work-bio {
-    font-size: 12px;
+    font-size: 14px;
     padding: 0 20px;
   }
   .contact-container {
@@ -360,9 +360,6 @@
     bottom: 0;
     left: 5%;
   }
-  .moving-txt {
-    font-size: 14px;
-  }
   .gallery-grid {
     width: 80%;
     height: 120vh;
@@ -385,7 +382,7 @@
     font-size: 32px;
   }
   .work-bio {
-    font-size: 14px;
+    font-size: 16px;
     padding: 0 20px;
   }
   .tit_contact {
@@ -538,7 +535,7 @@
     font-size: 48px;
   }
   .work-bio {
-    font-size: 16px;
+    font-size: 18px;
     padding: 0 40px;
   }
   .contact-intro p {
