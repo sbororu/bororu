@@ -1,9 +1,6 @@
 @charset "UTF-8";
 /* Super small devices (smartphose 468px and down)*/
 @media (max-width: 500px) {
-  .parallax-container {
-    height: 200vh !important;
-  }
   .bg2 {
     height: 100vh;
   }
@@ -57,9 +54,6 @@
 }
 /* Small devices (landscape phones, 767px and down)*/
 @media (min-width: 500px) and (max-width: 767px) {
-  .parallax-container {
-    height: 200vh !important;
-  }
   .bg2 {
     height: 70vh;
   }
@@ -257,9 +251,6 @@
 }
 /*Medium devices (tablets, 768px to 1366px)*/
 @media (min-width: 768px) and (max-width:1366px) {
-  .parallax-container {
-    height: 300vh !important;
-  }
   .intro {
     background-size: 30% !important;
     background-position: top 38% right 30% !important;
@@ -300,7 +291,6 @@
   }
   #occupation {
     font-size: 26px;
-    letter-spacing: 0.3em;
   }
   .tit_gallery, .tit_skill, .tit_work {
     font-size: 38px;
@@ -457,7 +447,6 @@
   }
   #occupation {
     font-size: 36px;
-    letter-spacing: 0.5em;
   }
   .moving-txt {
     font-size: 18px;

@@ -29,14 +29,13 @@ header {
 }
 .nav ul li a {
   text-decoration: none;
-  font-family: Gemola;
-  font-weight: 400;
-  font-style: normal;
+  font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
+  font-weight: 700;
   text-transform: capitalize;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.01em;
   text-align: center;
-  color: #C6DE41;
+  color: #FFB1B1;
   transition: all 0.2s ease-out;
 }
 .nav ul li a:hover {
@@ -58,7 +57,7 @@ header {
   content: "";
   width: 35px;
   height: 2px;
-  background-color: #C6DE41;
+  background-color: #fff;
   margin-left: 0;
   margin-bottom: 10px;
   -webkit-transition: all 0.3s ease-in-out;
