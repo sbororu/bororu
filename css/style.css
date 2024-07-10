@@ -138,9 +138,9 @@ h4 {
 }
 .fixed-img{
   content: ' ';
-  display: block;
-  position: fixed;
-  z-index: 0;
+  display: block !important;
+  position: fixed !important;
+  z-index: 0 !important;
 }
 .name {
   max-width: 1366px;
