@@ -139,9 +139,8 @@
     padding: 20px 20px;
   }
   .tit_gallery, .tit_skill, .tit_contact, .tit_art_gallery, .tit_work {
-    font-size: 22px;
-    margin-bottom: 20px; /*
-    padding-top: 50px;*/
+    font-size: 28px;
+    margin-bottom: 20px;
   }
   .tit_skill {
     padding-top: 50px;
@@ -163,9 +162,6 @@
   }
   .art img {
     max-width: 100%;
-  }
-  .moving-txt {
-    font-size: 12px;
   }
   .gallery-grid {
     width: 90%;
@@ -206,7 +202,7 @@
   }
   .contact-intro p {
     line-height: 1.8;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 0.1em;
   }
   .br-sp {
@@ -224,11 +220,11 @@
     font-size: 14px;
   }
   .contact-form input, .contact-form textarea, .social-media {
-    font-size: 12px;
+    font-size: 14px;
     padding: 10px;
   }
   .my-name {
-    font-size: 18px;
+    font-size: 16px;
   }
   .contact-info {
     flex: 2;
@@ -239,14 +235,15 @@
     text-align: center;
   }
   .page-description {
-    font-size: 12px;
+    font-size: 14px;
+    bottom: 20px;
   }
   .passion-more {
-    font-size: 12px;
+    font-size: 14px;
   }
   .img-bg1 {
-	  background: none !important;
-	  display: none !important;
+    background: none !important;
+    display: none !important;
   }
 }
 /*Medium devices (tablets, 768px to 1366px)*/
@@ -275,7 +272,7 @@
     font-size: 34px;
   }
   .bg2 span, .bg2 p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.8;
   }
   .btn {
@@ -314,7 +311,7 @@
     position: absolute;
     bottom: 15px;
     right: 20px;
-    font-size: 15px;
+    font-size: 16px;
   }
   .tit_passion, .skill-wrapper h3 {
     font-size: 18px;
@@ -369,7 +366,7 @@
     gap: 30px;
   }
   .hashtag {
-    font-size: 32px;
+    font-size: 28px;
   }
   .work-bio {
     font-size: 16px;
@@ -382,10 +379,6 @@
   .contact-intro-box {
     padding: 0 9%;
   }
-  .contact-intro p {
-    line-height: 2;
-    font-size: 18px;
-  }
   .br-sp {
     display: hide;
   }
@@ -396,22 +389,15 @@
   .contact-intro, .contact-form-box {
     flex: 1;
   }
-  .contact-intro p {
+  .contact-intro p, .contact-info a, .my-contact, .contact-form input, .contact-form textarea, .social-media, .page-description {
     line-height: 2;
-    font-size: 18px;
-  }
-  .contact-info a, .my-contact {
-    font-size: 18px;
-    line-height: 2;
-  }
-  .contact-form input, .contact-form textarea, .social-media {
-    font-size: 15px;
+    font-size: 16px;
   }
   .my-name {
-    font-size: 22px;
+    font-size: 18px;
   }
   .page-description {
-    font-size: 12px;
+    bottom: 30px;
   }
 }
 /* For all Large devices (from 1367px and up)*/
@@ -448,9 +434,6 @@
   #occupation {
     font-size: 36px;
   }
-  .moving-txt {
-    font-size: 18px;
-  }
   .gallery {
     padding: 0 50px 200px;
   }
@@ -475,13 +458,13 @@
     position: absolute;
     bottom: 30px;
     right: 40px;
-    font-size: 14px;
+    font-size: 18px;
   }
   .tit_passion, .skill-wrapper h3 {
     font-size: 20px;
     padding-top: 20px;
   }
-  .subtit_passion, .skill-wrapper p {
+  .subtit_passion, .skill-wrapper p, .contact-form input, .contact-form textarea, .social-media {
     font-size: 18px;
   }
   .art {
@@ -520,37 +503,30 @@
     gap: 40px;
   }
   .hashtag {
-    font-size: 48px;
+    font-size: 44px;
   }
   .work-bio {
     font-size: 18px;
     padding: 0 40px;
   }
-  .contact-intro p {
+  .contact-intro p, .contact-info a, .my-contact, .page-description {
     line-height: 2;
-    font-size: 24px;
-  }
-  .contact-info a, .my-contact {
-    font-size: 24px;
-    line-height: 2;
-  }
-  .contact-form input, .contact-form textarea, .social-media {
-    font-size: 20px;
+    font-size: 18px;
   }
   .my-name {
-    font-size: 30px;
+    font-size: 22px;
   }
   .br-sp {
     display: hide;
   }
   .contact-form button {
-    font-size: 16px;
+    font-size: 18px;
   }
   .contact-intro-box, .contact-info-box {
     gap: 50px;
   }
   .page-description {
-    font-size: 14px;
+    bottom: 40px;
   }
 }
 /*X-Larger devices (larger desktops, 1367px to 1920px)*/

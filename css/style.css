@@ -354,8 +354,7 @@ h3, h4 {
 }
 .contact-container {
   width: 100%;
-  height: 80%; /*
-  background: linear-gradient(180deg, #2D2424 40%, #1c1818f2 100%) !important;*/
+  padding: 20% 0 10% 0;
   background-color: #222831;
 }
 .contact-intro-box {
@@ -492,10 +491,11 @@ footer a {
   color: #FFB1B1;
 }
 .page-description {
+  letter-spacing: 0.05em;
+  font-weight: 300;
   width: 100%;
   text-align: center;
   position: absolute;
-  bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
 }
