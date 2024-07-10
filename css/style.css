@@ -72,6 +72,10 @@ h4 {
   background-position: center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
 }
 .bg2 {
   height: 100vh !important;
@@ -321,7 +325,7 @@ h4 {
   position: relative;
 }
 .work-wrapper:hover {
-  box-shadow: inset 4px 4px 16px rgb(72 68 68 / 50%) ,inset -4px 4px 16px rgb(72 68 68 / 50%) ,inset 4px -4px 16px rgb(72 68 68 / 50%);
+  box-shadow: inset 4px 4px 16px rgb(72 68 68 / 50%), inset -4px 4px 16px rgb(72 68 68 / 50%), inset 4px -4px 16px rgb(72 68 68 / 50%);
   transition: 0.03s all;
 }
 .hashtag {
@@ -448,12 +452,11 @@ h4 {
   letter-spacing: 0.05em;
   transition: 0.1s ease-in;
 }
-.contact-form button:hover{
+.contact-form button:hover {
   box-shadow: inset 2px 2px 7px #aec339, inset 2px 2px 6px #aec339, inset 2px -2px 7px #aec339, inset -2px 2px 6px #aec339;
-  
 }
 footer {
-  background: linear-gradient(180deg, #1c1818f2 40%, #2D2424 100%) !important;/*
+  background: linear-gradient(180deg, #1c1818f2 40%, #2D2424 100%) !important; /*
   border: 0.3px solid rgba(224, 243, 253, .1);*/
   position: relative;
   height: 40%;
@@ -498,7 +501,7 @@ footer a {
   text-align: right;
   align-content: center;
 }
-.my-contact, .social-media a,.my-contact {
+.my-contact, .social-media a, .my-contact {
   cursor: pointer;
   transition: 0.2s ease-in;
 }
