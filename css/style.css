@@ -229,7 +229,7 @@ h4 {
 .caption-gallery {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 100;
+  font-weight: 300;
   letter-spacing: 0.1em;
   font-style: normal;
   color: #FFF3E2;
@@ -478,8 +478,10 @@ footer a {
   height: 100%;
 }
 .my-name {
-  font-family: "Great Vibes", cursive;
-  font-weight: 400;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-optical-sizing: auto;
+  letter-spacing: 0.02em;
   font-style: normal;
 }
 .contact-info {
@@ -491,7 +493,7 @@ footer a {
   display: contents !important;
 }
 .fa-heart {
-  color: #EFB495;
+  color: #C6DE41;
 }
 .social-media {
   flex: 1;

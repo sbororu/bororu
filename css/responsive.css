@@ -195,7 +195,7 @@
   }
   .work-bio {
     font-size: 12px;
-    padding: 0 10px;
+    padding: 0 20px;
   }
   .contact-container {
     height: 100%;
@@ -207,7 +207,7 @@
   }
   .contact-intro, .contact-form-box {
     width: 100%;
-    padding: 0 20px;
+    padding: 0 10%;
   }
   .contact-intro p {
     line-height: 1.8;
