@@ -126,21 +126,14 @@ h4 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 1;
 }
 .intro {
   width: 100vw;
   height: 100vh;
   position: relative;
-  z-index: 1;/*
+  z-index: 1;
   background: url("../images/me.JPG") !important;
-  background-repeat: no-repeat !important;*/
-}
-.fixed-img{
-  content: ' ';
-  display: block !important;
-  position: fixed !important;
-  z-index: 0 !important;
+  background-repeat: no-repeat !important;
 }
 .name {
   max-width: 1366px;
