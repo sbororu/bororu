@@ -2,7 +2,7 @@
 /* Super small devices (smartphose 468px and down)*/
 @media (max-width: 500px) {
   .parallax-container {
-    height: 300vh !important;
+    height: 200vh !important;
   }
   .bg2 {
     height: 100vh;
@@ -58,7 +58,7 @@
 /* Small devices (landscape phones, 767px and down)*/
 @media (min-width: 500px) and (max-width: 767px) {
   .parallax-container {
-    height: 270vh !important;
+    height: 200vh !important;
   }
   .bg2 {
     height: 70vh;
