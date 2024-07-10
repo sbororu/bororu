@@ -252,6 +252,7 @@
   }
   .img-bg1 {
 	  background: none !important;
+	  display: none !important;
   }
 }
 /*Medium devices (tablets, 768px to 1366px)*/
