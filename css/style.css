@@ -47,7 +47,7 @@ h4 {
 }
 /*Parallax content (home page)*/
 .parallax-container {
-  width: 100vw !important1;
+  width: 100vw !important;
   height: 300vh !important;
 }
 #particles-js {

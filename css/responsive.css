@@ -2,7 +2,7 @@
 /* Super small devices (smartphose 468px and down)*/
 @media (max-width: 500px) {
   .parallax-container {
-    height: 300vh;
+    height: 300vh !important;
   }
   .bg2 {
     height: 100vh;
@@ -58,7 +58,7 @@
 /* Small devices (landscape phones, 767px and down)*/
 @media (min-width: 500px) and (max-width: 767px) {
   .parallax-container {
-    height: 270vh;
+    height: 270vh !important;
   }
   .bg2 {
     height: 70vh;
@@ -253,7 +253,7 @@
 /*Medium devices (tablets, 768px to 1366px)*/
 @media (min-width: 768px) and (max-width:1366px) {
   .parallax-container {
-    height: 300vh;
+    height: 300vh !important;
   }
   .intro {
     background-size: 30% !important;
@@ -262,7 +262,7 @@
   .bg2 { /*
     box-shadow: 0px -20rem 50rem 15rem #030637;*/
     padding: 0 50px;
-    height: 100vh;
+    height: 100vh !important;
   }
   .bg2-text {
     width: 60%;
