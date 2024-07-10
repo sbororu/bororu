@@ -453,7 +453,7 @@ h4 {
   
 }
 footer {
-  background: radial-gradient(106.01% 100% at 0 -18.75%, #111010f0 0, #1c1818f2 100%);/*
+  background: linear-gradient(180deg, #1c1818f2 40%, #2D2424 100%) !important;/*
   border: 0.3px solid rgba(224, 243, 253, .1);*/
   position: relative;
   height: 40%;
