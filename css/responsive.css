@@ -238,12 +238,21 @@
     font-size: 14px;
     bottom: 20px;
   }
-  .passion-more {
+  .passion-more, .back a {
     font-size: 14px;
   }
   .img-bg1 {
     background: none !important;
     display: none !important;
+  }
+  .art_container {
+    padding: 30px 0;
+  }
+  .back {
+    width: 60px;
+    height: 60px;
+    margin: 30px auto;
+    padding: 10px;
   }
 }
 /*Medium devices (tablets, 768px to 1366px)*/
@@ -396,8 +405,20 @@
   .my-name {
     font-size: 18px;
   }
+  .back a {
+    font-size: 16px;
+  }
   .page-description {
     bottom: 30px;
+  }
+  .art_container {
+    padding: 50px 0;
+  }
+  .back {
+    width: 80px;
+    height: 80px;
+    margin: 30px auto;
+    padding: 15px;
   }
 }
 /* For all Large devices (from 1367px and up)*/
@@ -513,6 +534,9 @@
     line-height: 2;
     font-size: 18px;
   }
+  .back a {
+    font-size: 18px;
+  }
   .my-name {
     font-size: 22px;
   }
@@ -527,6 +551,15 @@
   }
   .page-description {
     bottom: 40px;
+  }
+  .art_container {
+    padding: 100px 0;
+  }
+  .back {
+    width: 100px;
+    height: 100px;
+    margin: 100px auto;
+    padding: 20px;
   }
 }
 /*X-Larger devices (larger desktops, 1367px to 1920px)*/

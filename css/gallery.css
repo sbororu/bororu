@@ -17,8 +17,8 @@ section {
   height: 100vh;
 }
 h2, h3 {
-  font-family: Gemola;
-  font-weight: 100;
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
   font-style: normal;
   color: #ffffff;
 }
@@ -31,12 +31,13 @@ h2, h3 {
   height: 1px;
 }
 .tit_gallery, .tit_art_gallery {
+  font-family: "Great Vibes", cursive;
   font-weight: 400;
+  font-style: normal;
   text-transform: capitalize;
-  letter-spacing: 0.08em;
   text-align: center;
-  color: #FFB79B;
-} 
+  color: #FFB1B1;
+}
 .gallery-index {
   margin: 0;
   padding: 10% 0 5%;
@@ -91,8 +92,7 @@ h2, h3 {
 .art_container {
   position: relative;
   z-index: 9;
-  background-color: #000000;
-  padding: 5vw 0 10vw 0;
+  background-color:#222831;
 }
 .art {
   width: 100%;
@@ -114,4 +114,27 @@ h2, h3 {
   transition: 0.3s ease-in;
   transform: translateY(-20px);
   filter: none;
+}
+.back {
+  border-radius: 100%;
+  border: 1px solid #FF8787;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF8787;
+  cursor: pointer;
+}
+.back a {
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.back:hover a{
+  color: #fff;
 }
