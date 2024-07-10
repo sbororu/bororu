@@ -93,9 +93,9 @@ h4 {
 .bg2 .hello {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-weight: 800;
   font-style: normal;
-  color: #C6DE41;
+  color: #000;
   letter-spacing: 0.01em;
 }
 .bg2-img {
@@ -192,7 +192,7 @@ h4 {
   font-weight: 400;
   font-style: normal;
   text-transform: capitalize;
-  color: #FF9B82;
+  color: #EFB495;
 }
 .passion-outer {
   display: flex;
@@ -201,7 +201,7 @@ h4 {
 .passion-box {
   background: radial-gradient(106.01% 100% at 0 -18.75%, #111010f0 0, #1c1818f2 100%);
   border: 1px solid rgba(224, 243, 253, .25);
-  border-radius: 1.5rem;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -323,7 +323,7 @@ h4 {
   position: relative;
 }
 .work-wrapper:hover {
-  box-shadow: inset 4px 4px 16px rgb(72 68 68 / 94%) ,inset -4px 4px 16px rgb(72 68 68 / 94%) ,inset 4px -4px 16px rgb(72 68 68 / 94%);
+  box-shadow: inset 4px 4px 16px rgb(72 68 68 / 50%) ,inset -4px 4px 16px rgb(72 68 68 / 50%) ,inset 4px -4px 16px rgb(72 68 68 / 50%);
   transition: 0.03s all;
 }
 .hashtag {
@@ -396,7 +396,7 @@ h4 {
   font-weight: 400;
   font-style: normal;
   text-transform: capitalize;
-  color: #FF9B82;
+  color: #EFB495;
 }
 .sayhello {
   text-transform: capitalize;
@@ -491,7 +491,7 @@ footer a {
   display: contents !important;
 }
 .fa-heart {
-  color: #FF9B82;
+  color: #EFB495;
 }
 .social-media {
   flex: 1;
