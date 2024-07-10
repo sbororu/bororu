@@ -17,7 +17,7 @@
   }
   .bg2-img img {
     width: auto;
-    height: 200px;
+    height: 180px;
   }
   .passion-outer {
     flex-direction: column;
@@ -73,7 +73,7 @@
   }
   .bg2-img img {
     width: auto;
-    height: 250px;
+    height: 230px;
   }
   .passion-outer {
     gap: 30px;
@@ -120,23 +120,15 @@
 @media (max-width: 767px) {
   #occupation {
     font-size: 16px;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
   }
   .about-box {
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 20px;
   }
   .intro {
     background-size: 50% !important;
     background-position: top 30% center !important;
-  }
-  .parallax-content {
-    height: 100vh;
-    width: 100vw;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
   }
   .bg2 { /*
     box-shadow: 0px -15rem 12rem 9rem #030637;*/
@@ -145,10 +137,10 @@
   }
   .btn {
     font-size: 12px;
-    margin-top: 20px;
+    margin: 20px auto;
   }
   .bg2 .hello {
-    font-size: 20px;
+    font-size: 18px;
   }
   .gallery { /*
     box-shadow: 0px -2rem 8rem 4rem #000000;*/
@@ -156,8 +148,8 @@
   }
   .tit_gallery, .tit_skill, .tit_contact, .tit_art_gallery, .tit_work {
     font-size: 22px;
-    margin-bottom: 20px;
-    padding-top: 50px;
+    margin-bottom: 20px;/*
+    padding-top: 50px;*/
   }
   .tit_passion, .skill-wrapper h3 {
     font-size: 16px;
@@ -192,8 +184,8 @@
     position: relative;
   }
   .work-wrapper {
-    width: 270px;
-    height: 100px;
+    width: 80%;
+    height: 120px;
   }
   .work-outer {
     gap: 20px;

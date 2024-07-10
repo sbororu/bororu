@@ -59,16 +59,20 @@ h4 {
   background-color: #000000; /*背景色*/
 }
 .parallax-content {
-  height: 100vh !important;
-  width: 100vw !important;
-  background-attachment: fixed !important;
-  background-position: center !important;
-  background-size: cover !important;
-  background-repeat: no-repeat !important;
+  height: 100vh;
+  width: 100vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .img-bg1 {
   background-image: url("../images/IMG_9625.JPG");
   filter: brightness(60%);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .bg2 {
   height: 100vh;
@@ -184,8 +188,7 @@ h4 {
   color: #000;
 }
 .tit_gallery, .tit_skill, .tit_work {
-  font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
+  font-family: "Great Vibes", cursive;
   font-weight: 400;
   font-style: normal;
   text-transform: capitalize;
@@ -207,7 +210,7 @@ h4 {
 }
 .passion-more {
   cursor: pointer;
-  color: #FFF3E2 !important;
+  color: #EFB495 !important;
   text-decoration: none;
 }
 .passion-more:hover {
@@ -217,7 +220,7 @@ h4 {
 .subtit_passion {
   width: 100%;
   text-align: left;
-  color: #EFB495;
+  color: #B4A5A5;
   margin: 10px 0;
 }
 .caption-gallery-top {
@@ -281,7 +284,7 @@ h4 {
   top: 25%;
 }
 .skill-wrapper h3 {
-  color: #EFB495;
+  color: #B4A5A5;
   position: absolute;
   top: 10%;
 }
@@ -320,24 +323,16 @@ h4 {
   position: relative;
 }
 .work-wrapper:hover {
-  box-shadow: 1px 1px 4px rgba(224, 243, 253, 0.8);
-  transition: 0.1s all;
-}
-.work-wrapper:hover .hashtag, .work-wrapper:hover .work-bio {
-  transform: translateY(-10px);
-  transition: 0.1s all;
-}
-.work-wrapper:hover .see-more {
-  transform: translateY(5px);
-  color: #C6DE41;
-  transition: 0.1s all;
+  box-shadow: inset 4px 4px 16px rgb(72 68 68 / 94%) ,inset -4px 4px 16px rgb(72 68 68 / 94%) ,inset 4px -4px 16px rgb(72 68 68 / 94%);
+  transition: 0.03s all;
 }
 .hashtag {
   color: #FFF3E2;
-  letter-spacing: 0.08em;
-  font-family: Gemola;
-  font-weight: 100;
-  font-style: normal;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  line-height: 1.8;
 }
 .work-bio {
   color: #B4A5A5;
@@ -350,7 +345,7 @@ h4 {
   position: absolute;
   right: 5%;
   bottom: 10%;
-  font-size: 14px;
+  font-size: 12px;
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
@@ -377,10 +372,7 @@ h4 {
 .contact-container {
   width: 100%;
   height: 80%;
-  background: url("../images/noisebg.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: #000;
 }
 .contact-intro-box {
   height: 100%;
@@ -400,8 +392,7 @@ h4 {
   width: 40%;
 }
 .tit_contact {
-  font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
+  font-family: "Great Vibes", cursive;
   font-weight: 400;
   font-style: normal;
   text-transform: capitalize;
@@ -465,7 +456,7 @@ h4 {
 }
 footer {
   background: radial-gradient(106.01% 100% at 0 -18.75%, #111010f0 0, #1c1818f2 100%);
-  border: 1px solid rgba(224, 243, 253, .25);
+  border: 0.3px solid rgba(224, 243, 253, .1);
   position: relative;
   height: 40%;
 }
