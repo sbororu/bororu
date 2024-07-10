@@ -256,8 +256,8 @@
     height: 300vh;
   }
   .intro {
-    background-size: 30%;
-    background-position: top 38% right 30%;
+    background-size: 30% !important;
+    background-position: top 38% right 30% !important;
   }
   .bg2 { /*
     box-shadow: 0px -20rem 50rem 15rem #030637;*/
@@ -570,8 +570,8 @@
 /*X-Larger devices (larger desktops, 1367px to 1920px)*/
 @media (min-width: 1367px) and (max-width:1920px) {
   .intro {
-    background-size: 25%;
-    background-position: top 30% right 30%;
+    background-size: 25% !important;
+    background-position: top 30% right 30% !important;
   }
   .gallery-grid {
     height: 180vh;
@@ -584,8 +584,8 @@
 /*XX-Largest devices (larger desktops, 1400px and up)*/
 @media (min-width: 1921px) {
   .intro {
-    background-size: 20%;
-    background-position: top 25% right 28%;
+    background-size: 20% !important;
+    background-position: top 25% right 28% !important;
   }
   .bg2 {
     padding: 0 15%;
