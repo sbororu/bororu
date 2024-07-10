@@ -67,12 +67,12 @@ h4 {
   background-repeat: no-repeat;
 }
 .img-bg1 {
-  background-image: url("../images/IMG_9625.JPG");
-  filter: brightness(60%);
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("../images/IMG_9625.JPG") !important;
+  filter: brightness(60%) !important;
+  background-attachment: fixed !important;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
 }
 .bg2 {
   height: 100vh;

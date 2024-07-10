@@ -97,7 +97,7 @@ header {
   width: 0;
   height: 0;
   transition: 0.3s ease;
-  background: rgba(255, 255, 255, 0.15) !important;
+  background: rgba(255, 255, 255, 0.4) !important;
   box-shadow: 2px 0px 4px rgba(224, 243, 253, 0.2);
   backdrop-filter: blur(6px) !important; 
 }
