@@ -5,7 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap&family=Comfortaa:wght@300..700&display=swap&family=Seymour+One&display=swap&family=Cormorant+Unicase:wght@300;400;500;600;700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap&family=Great+Vibes&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/css/modaal.min.css">
 <link rel="stylesheet" href="css/responsive.css"/>
 <link rel="stylesheet" href="css/menu.css"/>
 <link rel="stylesheet" href="css/gallery.css"/>
@@ -32,39 +33,79 @@
   <div class="menu-bg" id="menu-bg"></div>
 </header>
 <main>
-  <div class="gallery gallery-index" id="gallery">
-    <h2 class="tit_gallery">Boloro's photo Gallery</h2>
-    <div class="gallery-grid"> 
-		<div class="gallery-column">
-			<img class="gallery-img1" src="images/gallery14.JPG" alt="Software : Photoshop, Lightroom"> 
-			<img class="gallery-img2" src="images/gallery2.JPG" alt="No edited image"> 
-			<img class="gallery-img3" src="images/gallery3.JPG" alt="No edited image"> 
-			<img class="gallery-img5" src="images/gallery10.JPG" alt="Software : Photoshop, Lightroom"> 
-			<img class="gallery-img4" src="images/gallery2.JPG" alt="Software : Lightroom">
-			<img class="gallery-img1" src="images/gallery7.JPG" alt="Software : Photoshop, Lightroom"> 
-			<img class="gallery-img16" src="images/gallery16.JPG" alt="Software : Photoshop, Lightroom"> 
-			<img class="gallery-img2" src="images/gallery14.JPG" alt="No edited image"> 
-		</div>
-		<div class="gallery-column">
-			<img class="gallery-img6" src="images/gallery6.JPG" alt="Software : Photoshop"> 
-			<img class="gallery-img7" src="images/gallery12.JPG" alt="Software : Lightroom"> 
-			<img class="gallery-img8" src="images/gallery13.JPG" alt="Software : Photoshop"> 
-			<img class="gallery-img9" src="images/gallery8.JPG" alt="Software : Lightroom"> 
-			<img class="gallery-img10" src="images/gallery5.JPG" alt="Software : Photoshop, Lightroom"> 
-		</div>
-		<div class="gallery-column">
-			<img class="gallery-img11" src="images/gallery9.JPG" alt="Software : Photoshop, Lightroom"> 
-			<img class="gallery-img12" src="images/gallery11.JPG" alt="Software : Photoshop"> 
-			<img class="gallery-img13" src="images/gallery15.JPG" alt="Software : Photoshop"> 
-			<img class="gallery-img15" src="images/gallery1.png" alt="Software : Photoshop, Lightroom"> 
-			<img class="gallery-img14" src="images/gallery4.JPG" alt="Software : Photoshop, Lightroom"> 
-			<img class="gallery-img11" src="images/gallery9.JPG" alt="Software : Photoshop, Lightroom"> 
-			<img class="gallery-img17" src="images/gallery11.JPG" alt="Software : Photoshop, Lightroom"> 
-			<img class="gallery-img12" src="images/gallery17.JPG" alt="Software : Photoshop"> 
-		</div>
-	</div>
-  </div>
+  <section id="gallery">
+      <h2 class="tit_gallery">Boloro's photo gallery</h2>
+      <div id="gallery-col">
+        <div class="gallery-row gallery-list1">
+			<div class="flex-col">
+            <a href="images/gallery2.jpg" class="gallery" data-group="gallery"><img src="images/gallery2.jpg" alt="" width="100%"></a>
+            <a href="images/gallery4.jpg" class="gallery" data-group="gallery"><img src="images/gallery4.jpg" alt="" width="100%"></a>
+			</div>
+            <a href="images/gallery3.jpg" class="gallery" data-group="gallery"><img src="images/gallery3.jpg" alt="" width="100%"></a>
+        </div>
+        <div class="gallery-row gallery-list2">
+            <a href="images/gallery5.jpg" class="gallery" data-group="gallery"><img src="images/gallery5.jpg" alt="" width="100%"></a>
+            <a href="images/gallery7.jpg" class="gallery" data-group="gallery"><img src="images/gallery7.jpg" alt="" width="100%"></a>
+            <a href="images/gallery6.jpg" class="gallery" data-group="gallery"><img src="images/gallery6.jpg" alt="" width="100%"></a>
+        </div>
+        <div class="gallery-row gallery-list3">
+            <a href="images/gallery9.jpg" class="gallery" data-group="gallery"><img src="images/gallery9.jpg" alt="" width="100%"></a>
+			<div class="flex-col">
+            <a href="images/gallery10.jpg" class="gallery" data-group="gallery"><img src="images/gallery10.jpg" alt="" width="100%"></a>
+            <a href="images/gallery11.jpg" class="gallery" data-group="gallery"><img src="images/gallery11.jpg" alt="" width="100%"></a>
+			</div>
+        </div>
+        <div class="gallery-row gallery-list4">
+            <a href="images/gallery13.jpg" class="gallery" data-group="gallery"><img src="images/gallery13.jpg" alt="" width="100%"></a>
+            <a href="images/gallery14.jpg" class="gallery" data-group="gallery"><img src="images/gallery14.jpg" alt="" width="100%"></a>
+        </div>
+		  <div class="gallery-row gallery-list5">
+		  </div>
+        <div class="gallery-row gallery-list6">
+            <a href="images/gallery12.jpg" class="gallery" data-group="gallery"><img src="images/gallery12.jpg" alt="" width="100%"></a>
+			<div class="flex-col">
+            <a href="images/gallery17.jpg" class="gallery" data-group="gallery"><img src="images/gallery17.jpg" alt="" width="100%"></a>
+            <a href="images/gallery8.jpg" class="gallery" data-group="gallery"><img src="images/gallery8.jpg" alt="" width="100%"></a>
+			</div>
+        </div>
+        <div class="gallery-row gallery-list7">
+			<div class="flex-col">
+            <a href="images/gallery15.jpg" class="gallery" data-group="gallery"><img src="images/gallery15.jpg" alt="" width="100%"></a>
+            <a href="images/gallery16.jpg" class="gallery" data-group="gallery"><img src="images/gallery16.jpg" alt="" width="100%"></a>
+			</div>
+            <a href="images/gallery1.jpg" class="gallery" data-group="gallery"><img src="images/gallery1.jpg" alt="" width="100%"></a>
+        </div>
+      </div>
+	  <div class="flex-row">
+		  <div class="back"><a href="index.html">Top Page ← </a></div>
+		  <div class="back"><a href="art.html">Art gallery →</a></div>
+	  </div>
+  </section>
+  <footer>
+    <div class="contact-info-box">
+      <div class="contact-info">
+        <p class="my-name">Sainjargal Bolortsetseg</p>
+        <p class="my-contact">
+			<i class="fas fa-envelope-open-text" aria-hidden="true"></i> : 
+			<a href="mailto:sbororu12@gmail.com">sbororu12@gmail.com</a>
+		</p>
+        <p class="my-contact">
+			<i class="fas fa-phone" aria-hidden="true"></i> : +81 080-5386-8760
+		</p>
+      </div>
+      <p class="social-media"> 
+		  <a href="http://linkedin.com/in/bolor-tsetseg-1183a1254"><i class="fab fa-linkedin"></i> LinkedIn</a> | 
+		  <a href="https://twitter.com/bororu12"><i class="fab fa-twitter"></i> Twitter</a> | 
+		  <a href="https://instagram.com/bororu12"><i class="fab fa-instagram"></i> Instagram</a> 
+	  </p>
+    </div>
+    <p class="page-description">Created <i class="fas fa-heart" aria-hidden="true"></i> by Boloro.</p>
+  </footer>
 </main>
+<script src="https://kit.fontawesome.com/519324c79c.js" crossorigin="anonymous"></script> 
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/js/modaal.min.js"></script>
 <script src="js/menu.js"></script> 
+<script src="js/gallery.js"></script>
 </body>
 </html>

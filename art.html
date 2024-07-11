@@ -6,6 +6,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap&family=Great+Vibes&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/css/modaal.min.css">
 <link rel="stylesheet" href="css/responsive.css"/>
 <link rel="stylesheet" href="css/menu.css"/>
 <link rel="stylesheet" href="css/gallery.css"/>
@@ -34,20 +35,50 @@
 <main>
   <div class="art_container" id="art">
         <h2 class="tit_art_gallery">Boloro's art Gallery</h2>
-        <div class="art">
-			<img src="images/artwork9.JPG" alt=""> 
-			<img src="images/artwork1-hover.jpg" alt=""> 
-			<img src="images/artwork2.jpg" alt=""> 
-			<img src="images/artwork3.jpg" alt=""> 
-			<img src="images/artwork4-hover.jpg" alt=""> 
-			<img src="images/artwork5-hover.jpg" alt=""> 
-			<img src="images/artwork10.JPG" alt=""> 
-			<img src="images/artwork8.JPG" alt=""> 
-    	</div>
+      <div id="gallery-col art">
+        <div class="art gallery-list1">
+            <a href="images/artwork1.jpg" class="gallery" data-group="gallery"><img src="images/artwork1.jpg" alt=""></a>
+            <a href="images/artwork2.JPG" class="gallery" data-group="gallery"><img src="images/artwork2.JPG" alt=""></a>
+            <a href="images/artwork3.jpg" class="gallery" data-group="gallery"><img src="images/artwork3.jpg" alt=""></a>
+            <a href="images/artwork9.jpg" class="gallery" data-group="gallery"><img src="images/artwork9.JPG" alt=""></a>
+            <a href="images/artwork8.jpg" class="gallery" data-group="gallery"><img src="images/artwork8.JPG" alt=""></a>
+            <a href="images/artwork6.jpg" class="gallery" data-group="gallery"><img src="images/artwork6.jpg" alt=""></a>
+            <a href="images/artwork4.jpg" class="gallery" data-group="gallery"><img src="images/artwork4.jpg" alt=""></a>
+            <a href="images/artwork5.JPG" class="gallery" data-group="gallery"><img src="images/artwork5.jpg" alt=""></a>
+            <a href="images/artwork7.jpg" class="gallery" data-group="gallery"><img src="images/artwork7.jpg" alt=""></a>
+        </div>
+      </div>
   
-	  <div class="back"><a href="index.html">Top Page</a></div>
+	  <div class="flex-row">
+		  <div class="back"><a href="index.html">Top Page ← </a></div>
+		  <div class="back"><a href="gallery.html">Photo gallery →</a></div>
+	  </div>
   </div>
+  <footer>
+    <div class="contact-info-box">
+      <div class="contact-info">
+        <p class="my-name">Sainjargal Bolortsetseg</p>
+        <p class="my-contact">
+			<i class="fas fa-envelope-open-text" aria-hidden="true"></i> : 
+			<a href="mailto:sbororu12@gmail.com">sbororu12@gmail.com</a>
+		</p>
+        <p class="my-contact">
+			<i class="fas fa-phone" aria-hidden="true"></i> : +81 080-5386-8760
+		</p>
+      </div>
+      <p class="social-media"> 
+		  <a href="http://linkedin.com/in/bolor-tsetseg-1183a1254"><i class="fab fa-linkedin"></i> LinkedIn</a> | 
+		  <a href="https://twitter.com/bororu12"><i class="fab fa-twitter"></i> Twitter</a> | 
+		  <a href="https://instagram.com/bororu12"><i class="fab fa-instagram"></i> Instagram</a> 
+	  </p>
+    </div>
+    <p class="page-description">Created <i class="fas fa-heart" aria-hidden="true"></i> by Boloro.</p>
+  </footer>
 </main>
+<script src="https://kit.fontawesome.com/519324c79c.js" crossorigin="anonymous"></script> 
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/js/modaal.min.js"></script>
+<script src="js/gallery.js"></script>
 <script src="js/menu.js"></script> 
 </body>
 </html>
