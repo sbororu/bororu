@@ -1,0 +1,269 @@
+@charset "UTF-8";
+*, *:after, *:before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+html, body, main {
+  width: 100%;
+  height: 100%;
+  background-color: #222831;
+}
+h2, h3 {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+}
+/*Hide scrollbar*/ ::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+::-webkit-scrollbar-button {
+  width: 1px;
+  height: 1px;
+}
+.tit_gallery, .tit_art_gallery {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: capitalize;
+  text-align: center;
+  color: #FFB1B1;
+}
+#gallery {
+  width: 100%;
+  height: auto;
+}
+#gallery-col {
+  height: auto;
+  padding: 10% 0;
+}
+.gallery-row {
+  display: flex;
+  align-items: flex-end;
+  margin: auto;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+#gallery img {
+  filter: grayscale(80%);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+#gallery img:hover {
+  filter: none;
+}
+.hide-area {
+  display: none;
+}
+/*全て共通：モーダルのボタンの色を変更したい場合*/
+.modaal-close:after, .modaal-close:before {
+  background: #ccc;
+}
+.modaal-close:focus:after, .modaal-close:focus:before, .modaal-close:hover:after, .modaal-close:hover:before {
+  background: #666;
+}
+.modaal-close:after, .modaal-close:before {
+  background: #FFB1B1;
+}
+.modaal-close:focus, .modaal-close:hover, .modaal-gallery-control:focus, .modaal-gallery-control:hover {
+  background: none;
+}
+.modaal-close:focus:after, .modaal-close:focus:before, .modaal-close:hover:after, .modaal-close:hover:before {
+  background: #FF8787;
+}
+.modaal-gallery-control {
+  color: #FFB1B1;
+}
+.modaal-gallery-control:after, .modaal-gallery-control:before {
+  background: #FFB1B1;
+}
+.modaal-gallery-control:focus:after, .modaal-gallery-control:focus:before, .modaal-gallery-control:hover:after, .modaal-gallery-control:hover:before {
+  background: #FF8787;
+}
+.modaal-gallery-item img {
+  height: 100%;
+  max-height: 80vh;
+}
+.gallery-row {
+  max-width: 1500px;
+  width: 90%;
+  column-gap: 10px;
+}
+.gallery-list1 .flex-col {
+  flex: 1;
+}
+.gallery-list1 a {
+  flex: 1.13;
+}
+.gallery-list2 a:nth-child(1), .gallery-list2 a:nth-child(2) {
+  flex: 1;
+}
+.gallery-list2 a:nth-child(3) {
+  flex: 2.37;
+}
+.gallery-list3 a {
+  flex: 1.176;
+}
+.gallery-list3 .flex-col {
+  flex: 1;
+}
+.gallery-list4 a:nth-child(1), .gallery-list4 a:nth-child(2) {
+  flex: 1;
+}
+.gallery-list6 a {
+  flex: 1.18;
+}
+.gallery-list6 .flex-col {
+  flex: 1;
+}
+.gallery-list7 a {
+  flex: 1.01;
+}
+.gallery-list7 .flex-col {
+  flex: 1;
+}
+.art_container {
+  position: relative;
+  z-index: 9;
+  background-color: #222831;
+}
+.art {
+  width: 100%;
+  position: relative;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 40% 40%;
+  justify-items: center;
+  gap: 5vw;
+}
+.art img {
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  filter: brightness(70%) grayscale(40%);
+  cursor: pointer;
+}
+.art img:hover {
+  transition: 0.3s ease-in;
+  transform: translateY(-20px);
+  filter: none;
+}
+.back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.back a {
+  color: #FF8787;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.back:hover a {
+  color: #fff;
+}
+.flex-row {
+  display: flex;
+}
+footer { /*
+  background: linear-gradient(180deg, #1c1818f2 40%, #2D2424 100%) !important; 
+  border: 0.3px solid rgba(224, 243, 253, .1);*/
+  background-color: #222831;
+  position: relative;
+  height: 40%;
+}
+footer a, footer p {
+  color: #B4A5A5;
+  text-decoration: none;
+}
+footer p {
+  font-weight: 200;
+  letter-spacing: 0.1em;
+}
+footer a {
+  font-weight: 400;
+  letter-spacing: 0.1em;
+}
+footer a, footer p {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  letter-spacing: 0.1em;
+  font-style: normal;
+}
+.contact-info-box {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.my-name {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-optical-sizing: auto;
+  letter-spacing: 0.02em;
+  font-style: normal;
+}
+.contact-info {
+  flex: 1;
+  text-align: left;
+  align-content: center;
+}
+.fa, .fab, .fad, .fal, .far, .fas {
+  display: contents !important;
+}
+.fa-heart {
+  color: #FF8787;
+}
+.social-media {
+  flex: 1;
+  text-align: right;
+  align-content: center;
+}
+.my-contact, .social-media a, .my-contact {
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+.my-contact:hover, .my-contact a:hover, .social-media a:hover {
+  color: #FF8787;
+}
+.page-description {
+  letter-spacing: 0.05em;
+  font-weight: 300;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 767px) {
+  .modaal-close {
+    top: 30px;
+    right: 30px;
+  }
+	#gallery{
+		margin: 40px auto;
+	}
+}
+@media (min-width: 768px) and (max-width:1366px) {
+  .modaal-close {
+    top: 50px;
+    right: 100px;
+  }
+}
+@media (min-width: 1367px) {
+  .modaal-close {
+    top: 50px;
+    right: 100px;
+  }
+}
