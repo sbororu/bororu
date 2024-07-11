@@ -270,6 +270,9 @@ footer a, footer p {
     right: 100px;
   }
 	#gallery,.art{
-		margin: 100px auto 100px auto;
+		margin: 100px auto 0 auto;
+	}
+	#art{
+		margin-bottom: 100px;
 	}
 }
