@@ -70,7 +70,7 @@ h2, h3 {
 .modaal-close:after, .modaal-close:before {
   background: #FFB1B1;
 }
-.modaal-close:focus, .modaal-close:hover, .modaal-gallery-control:focus, .modaal-gallery-control:hover {
+.modaal-close:focus, .modaal-close:hover, .modaal-gallery-control:focus, .modaal-gallery-control:hover,.modaal-gallery-control {
   background: none;
 }
 .modaal-close:focus:after, .modaal-close:focus:before, .modaal-close:hover:after, .modaal-close:hover:before {
