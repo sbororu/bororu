@@ -251,7 +251,7 @@ footer a, footer p {
     top: 30px;
     right: 30px;
   }
-	#gallery{
+	#gallery,.art{
 		margin: 80px auto;
 	}
 }
@@ -260,7 +260,7 @@ footer a, footer p {
     top: 50px;
     right: 100px;
   }
-	#gallery{
+	#gallery,.art{
 		margin: 80px auto 0 auto;
 	}
 }
@@ -269,7 +269,7 @@ footer a, footer p {
     top: 50px;
     right: 100px;
   }
-	#gallery{
+	#gallery,.art{
 		margin: 100px auto 0 auto;
 	}
 }
