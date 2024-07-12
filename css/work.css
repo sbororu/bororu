@@ -40,9 +40,9 @@ h2, h3 {
   margin: auto;
 }
 /* Hide the images by default */
-.mySlides {
+/*.mySlides {
   display: none;
-}
+}*/
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
