@@ -30,7 +30,7 @@ h2, h3 {
   font-style: normal;
   text-transform: capitalize;
   text-align: center;
-  color: #FFB1B1;
+  color: #EEF7FF;
 }
 #gallery {
   width: 100%;
@@ -62,28 +62,28 @@ h2, h3 {
 }
 /*全て共通：モーダルのボタンの色を変更したい場合*/
 .modaal-close:after, .modaal-close:before {
-  background: #ccc;
+  background: #526D82;
 }
 .modaal-close:focus:after, .modaal-close:focus:before, .modaal-close:hover:after, .modaal-close:hover:before {
-  background: #666;
+  background: #526D82;
 }
 .modaal-close:after, .modaal-close:before {
-  background: #FFB1B1;
+  background: #EEF7FF;
 }
 .modaal-close:focus, .modaal-close:hover, .modaal-gallery-control:focus, .modaal-gallery-control:hover,.modaal-gallery-control {
   background: none;
 }
 .modaal-close:focus:after, .modaal-close:focus:before, .modaal-close:hover:after, .modaal-close:hover:before {
-  background: #FF8787;
+  background: #526D82;
 }
 .modaal-gallery-control {
-  color: #FFB1B1;
+  color: #EEF7FF;
 }
 .modaal-gallery-control:after, .modaal-gallery-control:before {
-  background: #FFB1B1;
+  background: #EEF7FF;
 }
 .modaal-gallery-control:focus:after, .modaal-gallery-control:focus:before, .modaal-gallery-control:hover:after, .modaal-gallery-control:hover:before {
-  background: #FF8787;
+  background: #526D82;
 }
 .modaal-gallery-item img {
   height: 100%;
@@ -159,7 +159,7 @@ h2, h3 {
   cursor: pointer;
 }
 .back a {
-  color: #FF8787;
+  color: #9DB2BF;
   text-decoration: none;
   text-align: center;
   font-family: "Outfit", sans-serif;
@@ -170,7 +170,7 @@ h2, h3 {
   transition: all 0.3s ease;
 }
 .back:hover a {
-  color: #fff;
+  color: #526D82;
 }
 .flex-row {
   display: flex;
@@ -183,7 +183,7 @@ footer { /*
   height: 40%;
 }
 footer a, footer p {
-  color: #B4A5A5;
+  color: #9DB2BF;
   text-decoration: none;
 }
 footer p {
@@ -233,7 +233,7 @@ footer a, footer p {
   transition: 0.2s ease-in;
 }
 .my-contact:hover, .my-contact a:hover, .social-media a:hover {
-  color: #FF8787;
+  color: #526D82;
 }
 .page-description {
   letter-spacing: 0.05em;
