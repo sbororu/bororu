@@ -162,10 +162,6 @@ h2, h3 {
   color: #9DB2BF;
   text-decoration: none;
   text-align: center;
-  font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  letter-spacing: 0.05em;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -195,10 +191,7 @@ footer a {
   letter-spacing: 0.1em;
 }
 footer a, footer p {
-  font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
   letter-spacing: 0.1em;
-  font-style: normal;
 }
 .contact-info-box {
   display: flex;
@@ -206,11 +199,7 @@ footer a, footer p {
   height: 100%;
 }
 .my-name {
-  font-family: "Outfit", sans-serif;
-  font-weight: 700;
-  font-optical-sizing: auto;
   letter-spacing: 0.02em;
-  font-style: normal;
 }
 .contact-info {
   flex: 1;

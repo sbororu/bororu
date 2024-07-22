@@ -114,7 +114,6 @@
 @media (max-width: 767px) {
   #occupation {
     font-size: 16px;
-    letter-spacing: 0.1em;
   }
   .about-box {
     flex-direction: column;
@@ -198,7 +197,6 @@
   .contact-intro p {
     line-height: 1.8;
     font-size: 14px;
-    letter-spacing: 0.1em;
   }
   .br-sp {
     display: block;
@@ -385,7 +383,6 @@
   }
   .contact-intro-box, .contact-info-box {
     padding: 0 9%;
-    gap: 20px;
   }
   .contact-intro, .contact-form-box {
     flex: 1;

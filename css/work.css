@@ -33,9 +33,12 @@ h2, h3 {
 }*/
 /* Next & previous buttons */
 .prev, .next {
-  font-family: "Outfit", sans-serif;
+  font-family: "EB Garamond", serif;
   font-optical-sizing: auto;
   font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
   cursor: pointer;
   position: absolute;
   width: auto;
@@ -76,9 +79,12 @@ h2, h3 {
 .text {
   color: #151515;
   background: #F6E6E4;
-  font-family: "Outfit", sans-serif;
+  font-family: "EB Garamond", serif;
   font-optical-sizing: auto;
   font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 table {
   width: 80%;
@@ -104,9 +110,6 @@ table tr:nth-child(3) td, table tr:nth-child(4) td {
 }
 /* Number text (1/3 etc) */
 .numbertext {
-  font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
   color: #151515;
   font-size: 12px;
   position: absolute;
@@ -144,10 +147,6 @@ table tr:nth-child(3) td, table tr:nth-child(4) td {
   color: #151515;
   text-decoration: none;
   text-align: center;
-  font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  letter-spacing: 0.05em;
   cursor: pointer;
   transition: all 0.3s ease;
   z-index: 9999;
