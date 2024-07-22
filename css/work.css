@@ -173,10 +173,10 @@ table tr:nth-child(3) td, table tr:nth-child(4) td {
     flex-direction: column;
   }
   .work-img {
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
     gap: 30px;
-    padding: 0 10%;
+    padding: 0 20px;
   }
   .work-img img {
     margin: auto;
@@ -184,16 +184,16 @@ table tr:nth-child(3) td, table tr:nth-child(4) td {
   .text {
     width: 100%;
     margin: auto;
-    padding: 10vw;
+    padding: 100px 20px 50px 20px;
   }
   table {
     width: 100%;
-    margin: 0 auto 50px auto;
+    margin: auto;
   }
   table tr th {
     font-size: 16px;
   }
-  table tr td,.prev, .next {
+  table tr td, .prev, .next {
     font-size: 14px;
   }
   table tr:nth-child(3) th, table tr:nth-child(4) th {
@@ -208,17 +208,17 @@ table tr:nth-child(3) td, table tr:nth-child(4) td {
     left: 30px;
   }
   .prev {
-    left: 20%;
+    left: 22px;
     bottom: 3%;
   }
   .next {
-    right: 20%;
+    right: 22px;
     bottom: 3%;
   }
   .numbertext {
-  bottom: 1%;
-  right: 10%;
-}
+    bottom: 20px;
+    right: 22px;
+  }
   .sp {
     display: block;
   }
@@ -234,7 +234,7 @@ table tr:nth-child(3) td, table tr:nth-child(4) td {
   table tr th {
     font-size: 18px;
   }
-  table tr td,.prev, .next {
+  table tr td, .prev, .next {
     font-size: 16px;
   }
   .work_outer {
@@ -247,7 +247,7 @@ table tr:nth-child(3) td, table tr:nth-child(4) td {
   .work-img {
     width: 100%;
     justify-content: center;
-    margin-top: 150px;
+    margin: 100px auto;
     padding: 0 10%;
   }
   .work-img img {
@@ -255,7 +255,7 @@ table tr:nth-child(3) td, table tr:nth-child(4) td {
   }
   .text {
     width: 100%;
-    margin: 100px 0 0 0;
+    padding: 100px 0 0 0;
   }
   table {
     position: unset;
@@ -268,12 +268,15 @@ table tr:nth-child(3) td, table tr:nth-child(4) td {
     left: 50px;
   }
   .prev {
-    bottom: 7%;
+    bottom: 50px;
     right: 15%;
   }
   .next {
     right: 5%;
-    bottom: 7%;
+    bottom: 50px;
+  }
+  .numbertext {
+    bottom: 30px;
   }
   .sp {
     display: none;
@@ -303,7 +306,7 @@ table tr:nth-child(3) td, table tr:nth-child(4) td {
   table tr th {
     font-size: 20px;
   }
-  table tr td,.prev, .next {
+  table tr td, .prev, .next {
     font-size: 18px;
   }
   .work-container {
