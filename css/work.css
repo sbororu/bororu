@@ -11,6 +11,10 @@ html, body, main {
   background-color: #fff;
   margin: 0;
   padding: 0;
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.03em;
 }
 h2, h3 {
   font-family: "Great Vibes", cursive;
@@ -33,8 +37,7 @@ h2, h3 {
 }*/
 /* Next & previous buttons */
 .prev, .next {
-  font-family: "EB Garamond", serif;
-  font-optical-sizing: auto;
+  font-family: "Sansita", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-variation-settings:
@@ -79,12 +82,6 @@ h2, h3 {
 .text {
   color: #151515;
   background: #F6E6E4;
-  font-family: "EB Garamond", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
 }
 table {
   width: 80%;

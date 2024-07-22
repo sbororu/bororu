@@ -181,7 +181,7 @@
     padding: 0 20px;
   }
   .contact-container {
-	  text-align: center;
+    text-align: center;
   }
   .contact-intro-box {
     flex-direction: column;
@@ -202,7 +202,7 @@
   .contact-info-box {
     flex-direction: column;
     justify-content: center;
-	align-items: center;
+    align-items: center;
   }
   .br-sp {
     display: hide;
@@ -217,7 +217,7 @@
   }
   .my-name {
     font-size: 14px;
-	margin-bottom: 10px;
+    margin-bottom: 10px;
   }
   .contact-info {
     flex: 2;
@@ -226,7 +226,7 @@
   .social-media {
     align-content: unset;
     text-align: center;
-	font-weight: 600;
+    font-weight: 600;
   }
   .page-description {
     font-size: 14px;
@@ -248,9 +248,9 @@
     margin: 0 auto;
     padding: 10px;
   }
-	footer {
-	  height: 40%;
-	}
+  footer {
+    height: 40%;
+  }
 }
 /*Medium devices (tablets, 768px to 1366px)*/
 @media (min-width: 768px) and (max-width:1366px) {
@@ -409,9 +409,9 @@
     margin: 0 auto;
     padding: 15px;
   }
-	footer {
-	  height: 25%;
-	}
+  footer {
+    height: 25%;
+  }
 }
 /* For all Large devices (from 1367px and up)*/
 @media (min-width: 1367px) {
@@ -485,7 +485,7 @@
     max-width: 400px;
   }
   .skill-container {
-	padding: 10% 0;
+    padding: 10% 0;
     position: relative;
   }
   .skill-wrapper {
@@ -538,6 +538,9 @@
   .contact-intro-box, .contact-info-box {
     gap: 50px;
   }
+  .contact-container {
+    padding: 5% 0;
+  }
   .page-description {
     bottom: 20px;
   }
@@ -546,10 +549,10 @@
     height: 100px;
     margin: 0 auto;
     padding: 20px;
-	  }
-	footer {
-	  height: 30%;
-	}
+  }
+  footer {
+    height: 40%;
+  }
 }
 /*X-Larger devices (larger desktops, 1367px to 1920px)*/
 @media (min-width: 1367px) and (max-width:1920px) {
