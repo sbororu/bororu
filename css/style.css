@@ -11,7 +11,7 @@ html, body, main {
   font-family: "Barlow", sans-serif;
   font-weight: 700;
   font-style: normal;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.04em;
 }
 section {
   height: 100vh;
@@ -181,7 +181,7 @@ h3, h4 {
   cursor: pointer;
   color: #9DB2BF !important;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 800;
 }
 .passion-more:hover {
   color: #526D82 !important;
@@ -257,6 +257,7 @@ h3, h4 {
   color: #9DB2BF;
   position: absolute;
   top: 10%;
+  font-weight: 800;
 }
 .skill-wrapper p, .work-bio {
   color: #DDE6ED;
@@ -393,7 +394,6 @@ footer {
 footer a, footer p {
   color: #9DB2BF;
   text-decoration: none;
-  font-weight: 500;
 }
 .contact-info-box {
   display: flex;
@@ -403,7 +403,7 @@ footer a, footer p {
 }
 .my-name {
   letter-spacing: 0.02em;
-  font-weight: 700;
+  font-weight: 800;
 }
 .contact-info {
   flex: 1;
