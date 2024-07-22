@@ -142,7 +142,7 @@
     padding-top: 50px;
   }
   .tit_passion, .skill-wrapper h3 {
-    font-size: 16px;
+    font-size: 14px;
     padding-top: 10px;
   }
   .subtit_passion, .skill-wrapper p, .contact-form input, .contact-form textarea {
@@ -180,10 +180,8 @@
     font-size: 14px;
     padding: 0 20px;
   }
-  .contact-container {/*
-    height: 100%;*/
+  .contact-container {
 	  text-align: center;
-	  padding: 10% 0 0 0;
   }
   .contact-intro-box {
     flex-direction: column;
@@ -218,7 +216,8 @@
     padding: 10px;
   }
   .my-name {
-    font-size: 16px;
+    font-size: 14px;
+	margin-bottom: 10px;
   }
   .contact-info {
     flex: 2;
@@ -227,6 +226,7 @@
   .social-media {
     align-content: unset;
     text-align: center;
+	font-weight: 600;
   }
   .page-description {
     font-size: 14px;
