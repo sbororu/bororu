@@ -423,6 +423,7 @@
   }
   .bg2-text {
     width: 60%;
+    max-width: 1000px;
   }
   .bg2-img img {
     width: auto;
